@@ -1,0 +1,484 @@
+:: StoryTitle
+a freshman story
+
+
+:: StoryData
+{
+  "ifid": "77127E47-E9A0-460E-B440-FFC946B2B8C8",
+  "format": "Harlowe",
+  "format-version": "3.3.8",
+  "start": "START",
+  "tag-colors": {
+    "WELCOME": "red",
+    "DORM": "red",
+    "LONELY": "red",
+    "DEE": "orange",
+    "PENNY": "orange",
+    "START": "orange",
+    "DIJON": "blue",
+    "PHONE": "orange",
+    "CLOSET": "purple",
+    "HW": "orange",
+    "UPSET": "green",
+    "closet": "orange",
+    "jeansweat": "purple",
+    "dresskirt": "purple",
+    "IDC": "blue",
+    "text": "orange",
+    "priorities1": "blue",
+    "who-texting": "orange",
+    "who-texting2": "orange",
+    "huh": "red",
+    "NAIL": "orange",
+    "car": "purple",
+    "undaunted": "red",
+    "sweats": "blue",
+    "jeanss": "yellow",
+    "dress": "green",
+    "NO": "green"
+  },
+  "zoom": 1
+}
+
+
+:: \ friends {"position":"250,1650","size":"100,100"}
+// sound continues, get quiet and a yawn starts
+
+// someone says in the background that they have an 8am and [[remembers]]
+
+//sirens start
+
+
+:: 'Can I call you back later?' [NO] {"position":"575,500","size":"100,100"}
+Cool. Hopefully she doesn text back because you really have to prepare for [[(1b)tomorrow's exam->undaunted]]. 
+
+
+:: 'hey girly, I'm about to start prepping for classes tomorrow now, what's up?' {"position":"750,400","size":"100,100"}
+[[hey]]
+
+
+:: (1a) no response. {"position":"900,875","size":"100,100"}
+Okay, lets get started on that [[work]]
+
+
+:: (2)Yeah, I'm a little busy. What's up? {"position":"650,1075","size":"100,100"}
+// converstaion between you and friend about what to do 
+- happy medium between studying 
+
+
+:: (3/4)home {"position":"312.5,2025","size":"100,100"}
+Wlk baclk to dorm. You live in HH. roommate is outside still, do you want [[study before bed]] 
+
+no take off make up and go to [[sleep]]
+
+
+:: (5)order {"position":"187.5,2275","size":"100,100"}
+Hi $name, Welcome to Waffle House. What do you [[want]]?
+
+
+
+
+
+:: Bodycon dress from SHEIN [dress] {"position":"250,900","size":"100,100"}
+[[Let's Go!->VROOM]]
+
+Do you want to do your [[make up]]?
+
+
+:: Call your friend back\  {"position":"650,900","size":"100,100"}
+// place holder for audio for morgan
+
+We [[outside->YOLO!]] 
+
+
+:: Completely ignore [priorities1] {"position":"450,375","size":"100,100"}
+Okay! Now you can lock in. Priorities [[sis]]!
+
+
+:: Credits {"position":"600,0","size":"100,100"}
+
+(align:"===><==")[
+
+IMAGERY 
+
+inside dorm - 
+https://twitter.com/nia_jpage/status/904791035448090625/photo/1 
+ 
+
+
+Phone ring GIF 1 -
+https://giphy.com/stickers/phone-iphone-cell-yN4psF1lMgoaePuOyF 
+
+
+AUDIO 
+
+Morgan Taylor - voice 
+
+]
+
+
+:: Get In! {"position":"100,1325","size":"100,100"}
+// car sound driving off
+
+Youre on the way to the pregame. College is a [[movie]]!
+
+
+:: Get In!\  {"position":"200,1200","size":"100,100"}
+//END OF DEMO//
+
+Unfortunately, You're a party animal!
+
+
+
+:: Jeans [jeanss] {"position":"150,900","size":"100,100"}
+[[Let's Go!->VROOM]]
+
+
+:: No, what you up to? {"position":"525,1075","size":"100,100"}
+
+
+She's calling, now you have to [[pick up->yes, I'll pick up.]]!
+
+<audio src= 'https://raw.githubusercontent.com/teyper/a-freshman-story-twine-/main/a%20freshman%20story%20media/iphoneRINGtone.mp3' autoplay> 
+
+
+:: Persevere [undaunted] {"position":"475,800","size":"100,100"}
+You are a Spelmanite and you are [[undaunted]] by the fight!
+
+
+:: Pop out [dresskirt] {"position":"275,775","size":"100,100"}
+[[Bodycon dress from SHEIN]].
+[[Two piece set from PrettyLittleThing]].
+
+
+:: START [START] {"position":"150,50","size":"100,100"}
+A FRESHMAN STORY 
+
+(button:)+(text-colour:red)[[PLAY->Welcome!]] 
+
+(button:)+(text-colour:(hsl:0,0.8039,0.5,0.8))[[CREDITS->Credits]] 
+<!--(set: $name to (prompt: "Enter your name:", ""))-->
+(set: $name to "Spelman Sister")
+
+
+:: Sweatpants [sweats] {"position":"50,900","size":"100,100"}
+[[Let's Go!->VROOM]]
+
+
+:: Text [NAIL] {"position":"575,375","size":"100,100"}
+OMG. How should you respond? You already ignored the call, your only friend so far, she'll probably think you're fake now. So much for sisterhood, huh...
+
+
+Eh, whatever. It's not that deep, just send the auto-text [['Can I call you back later?']]
+
+Be authentic, say [['hey girly, I'm about to start prepping for classes tomorrow now, what's up?']]
+
+<== 
+<img src= "file:///Users/tey/Documents/Twine/Stories/a freshman story media/typing messageGIF.gif" width=60%>
+
+<audio src= 'file:///Users/tey/Documents/Twine/Stories/a freshman story media/iphoneTEXT.wav' autoplay>
+
+
+:: Two piece set from PrettyLittleThing {"position":"350,900","size":"100,100"}
+[[Let's Go!->VROOM]]
+
+Wait, you should do your make-up! Call [[your friend->what shes doing]] 
+
+
+:: VROOM [car] {"position":"200,1075","size":"100,100"}
+
+[[Get In! ]] 
+
+<audio src= 'file:///Users/tey/Documents/Twine/Stories/a freshman story media/beepbeep.wav' autoplay>
+
+
+:: Welcome! [WELCOME] {"position":"375,0","size":"100,100"}
+Hi $name! Welcome to your freshman year and your first week on campus! It's the first full week of classes. There is a huge block party at the Morehouse gate. You have an 8am in Calculus. Everyone is going to that [[party]].
+<!--(set: $name to (prompt: "Enter your name:", ""))
+--> 
+(set: $name to "teyjhana")
+
+
+
+
+
+:: YOLO! [closet] {"position":"200,525","size":"100,100"}
+Okay, now what are you going to [[wear]]? Cause you know //everyone// is going to be there..
+
+
+:: casual [jeansweat] {"position":"125,775","size":"100,100"}
+[[Sweatpants]] and a T-shirt 
+[[Jeans]] and a tank top
+
+
+:: do [LONELY] {"position":"300,375","size":"100,100"}
+Go! It's only the first night, you have all year to focus on studies. It's just //syllabus week // anyway. [[YOLO!]] Plus, you get to fellowship with your Spelman sisters before you go, period. 
+
+The block party doesn't start until later. If you prep now, you can still make it...You might be tired and change your mind about going. Then, you'll [[miss out on everything]].
+
+
+
+
+
+:: end the night early {"position":"925,150","size":"100,100"}
+
+
+
+:: fun {"position":"250,1400","size":"100,100"}
+// keys jingling music turning down, audio of morgan saying we [[ready ]]to go! 
+
+
+door closing, steps back down  
+
+
+:: hey {"position":"825,550","size":"100,100"}
+//END OF DEMO//
+
+You're very sisterly, but try not to get too distracted if youre trying to stay studious!
+
+
+
+:: longer than you expected [huh] {"position":"350,650","size":"100,100"}
+Well, dang, what now? 
+
+[[Call your friend back ]] and tell her that you change your mind. You're on on the way. 
+[[Persevere]]! A Spelman Woman is //undaunted//, but you might not make the party, and it's the first one of the year...//everyone// is going to be there.
+
+
+:: make up {"position":"500,1300","size":"100,100"}
+Wait, what if you're overdressed? Call back your friend to see [[what shes doing]]?
+
+Just put the make up on and [[go->VROOM]]!
+
+
+:: miss out on everything [HW] {"position":"325,525","size":"100,100"}
+Calculus is your first class of the day tomorrow, but looking at your schedule, you have a fully day of classes to prepare for. This may take [[longer than you expected]].
+
+
+:: movie {"position":"500,1425","size":"100,100"}
+// steps and door opening, music turning up
+
+Everyone looks great, you don't feel overdressed at all. Let's have some [[fun]]
+
+
+:: no, I just met her at NSO. [IDC] {"position":"450,250","size":"100,100"}
+[[Text]] her a response that you are trying to prepare for classes. 
+[[Completely ignore]] her and give a weak excuse the next time you see her.
+
+
+:: open the message {"position":"750,900","size":"100,100"}
+// insert image of message of extending invite 
+
+
+:: party [DORM] {"position":"375,125","size":"100,100"}
+Your friend is FaceTiming you, what do you want to do?
+
+[[ Aw, how sweet, I'll pick up. ->yes, I'll pick up.]]
+
+[[I honestly have a lot of work to get started on and I just met her at NSO. I'm sure she'll understand. ->no, I just met her at NSO.]]
+
+<audio src= 'file:///Users/tey/Documents/Twine/Stories/a freshman story media/iphoneRINGtone.mp3' autoplay>
+
+
+:: ready\  {"position":"250,1525","size":"100,100"}
+// music blarring, sounds like intoxicated, people talking in the background 
+
+There's so many people here! You're making new[[ friends]] //add bark? and naasty song 
+
+
+
+
+:: remembers {"position":"250,1775","size":"100,100"}
+// audio of morgan, we gotta go girl, lets go to [[waffle house]]
+
+
+
+
+:: sis [who-texting] {"position":"450,500","size":"100,100"}
+Now someone is texting you, [[who]] could it be now?
+
+<audio src= 'file:///Users/tey/Documents/Twine/Stories/a freshman story media/iphonetextDING.wav' autoplay>
+
+
+:: sleep {"position":"312.5,2150","size":"100,100"}
+
+
+
+:: starving {"position":"187.5,2025","size":"100,100"}
+// runnig, car door shut and pull off 
+// Walk. in door open
+
+You're at waffle house and it's PACKED. What [[time]] is it anyway? I hope this doesnt take too long...
+
+
+:: study before bed {"position":"437.5,2150","size":"100,100"}
+
+
+
+:: time {"position":"187.5,2150","size":"100,100"}
+// audio of someone saying welcome to wafflehouse, can i take your [[(5)order]]
+
+
+:: undaunted {"position":"475,925","size":"100,100"}
+//END OF DEMO//
+
+You're very studious, but try to socialize more! Spelman is a sisterhood, take advantage of it!
+
+
+
+:: waffle house {"position":"250,1900","size":"100,100"}
+Yess, im [[starving]] omg! The night is still young. 
+
+I'm too tired to eat, I think I'm ready to go [[(3/4)home]]
+
+
+:: want {"position":"187.5,2400","size":"100,100"}
+(set: $order to (prompt: "Enter your order:", ""))
+
+
+:: wear [CLOSET] {"position":"200,650","size":"100,100"}
+Keep it [[casual]].
+[[Pop out]] when you step out.
+
+
+:: what shes doing {"position":"375,1275","size":"100,100"}
+// insert audio of morgan saying shes dressed up and to do your make up
+
+
+:: who [DIJON] {"position":"550,625","size":"100,100"}
+It's your friend! 
+
+
+
+Do you want to [[open the message->hey]]? How do you want to respond?
+
+[[(2)Yeah, I'm a little busy. What's up?->hey]]
+
+[[No, what you up to?->Get In!]]
+
+
+[[no response.->undaunted]]
+
+
+
+:: work {"position":"775,1225","size":"100,100"}
+
+
+
+:: yes, I'll pick up. [PHONE] {"position":"325,250","size":"100,100"}
+
+What should you [[do]]?
+
+
+<audio src= 'https://raw.githubusercontent.com/teyper/a-freshman-story-twine-/main/a%20freshman%20story%20media/morg.m4a' autoplay>
+
+
+
+:: you chose to be a studious Spelmanite. You are now ahead of the game and ready to take on the year. {"position":"1050,150","size":"100,100"}
+
+
+
+:: StoryScript [script]
+var audio = document.createElement('audio');
+audio.src = 'file:///Users/tey/Documents/Twine/Stories/a freshman story media/themesong.mp4';
+audio.loop = true;
+audio.play();
+
+  
+
+
+:: StoryStylesheet [stylesheet]
+
+tw-story{background-color:#031133;}
+
+tw-passage{color #f54033;
+  background-color: #00000070;
+border-style: solid;}
+
+tw-sidebar{visibility: hidden;}
+tw-link{color:orange;}
+
+/*hovercolor*/
+.enhancement-link:hover,tw-link:hover{color:#bf4a06;}
+
+tw-passage{font-family:garamond;}
+
+
+
+
+
+tw-story[tags~="WELCOME"] {
+background-image:url("file:///Users/tey/Documents/Twine/Stories/a freshman story media/girlatspel.jpeg");
+ background-size:contain; background-repeat: no-repeat;background-position:center;
+}
+
+tw-story[tags~="START"] {
+background-image:url("file:///Users/tey/Documents/Twine/Stories/a freshman story media/spelman.jpeg");
+ background-size:contain;background-repeat:no-repeat;background-position:center;
+}
+
+tw-debugger {display: none;}
+
+
+tw-story[tags~="DORM"] {background-image:url("file:///Users/tey/Documents/Twine/Stories/a freshman story media/dormroom.jpeg"); 
+background-size: contain;background-repeat:no-repeat;background-position:center;}
+
+
+tw-story[tags~="LONELY"] {background-image:url("file:///Users/tey/Documents/Twine/Stories/a freshman story media/lonleyBOB.gif"); 
+  background-size:cover;}
+
+tw-story[tags~="huh"] {background-image:url("file:///Users/tey/Documents/Twine/Stories/a freshman story media/confusedBOB.gif"); 
+  background-size:contain;background-repeat:no-repeat;background-position:center;}
+
+tw-story[tags~="NAIL"] {background-image:url("file:///Users/tey/Documents/Twine/Stories/a freshman story media/nailbite.gif"); 
+  background-size:contain;background-repeat:no-repeat;background-position:center;}
+
+tw-story[tags~="PHONE"] {background-image:url("file:///Users/tey/Documents/Twine/Stories/a freshman story media/girlPHONE.jpeg"); 
+  background-size:contain;background-repeat:no-repeat;background-position:center;}
+
+tw-story[tags~="CLOSET"] {background-image:url("file:///Users/tey/Documents/Twine/Stories/a freshman story media/girlcloset3.jpeg"); 
+  background-size:contain;background-repeat:no-repeat;background-position:center;}
+
+tw-story[tags~="HW"] {background-image:url("file:///Users/tey/Documents/Twine/Stories/a freshman story media/girlHW.jpeg"); 
+  background-size:contain;background-repeat:no-repeat;background-position:center;}
+
+tw-story[tags~="UPSET"] {background-image:url("file:///Users/tey/Documents/Twine/Stories/a freshman story media/girlHW1.jpeg"); 
+  background-size:contain;background-repeat:no-repeat;background-position:center;}
+
+tw-story[tags~="closet"] {background-image:url("file:///Users/tey/Documents/Twine/Stories/a freshman story media/what2wear.jpeg"); 
+  background-size:contain;background-repeat:no-repeat;background-position:center;}
+
+tw-story[tags~="jeansweat"] {background-image:url("file:///Users/tey/Documents/Twine/Stories/a freshman story media/jeansORsweats.jpeg"); 
+  background-size:contain;background-repeat:no-repeat;background-position:center;}
+
+tw-story[tags~="dresskirt"] {background-image:url("file:///Users/tey/Documents/Twine/Stories/a freshman story media/dressORskirt.jpeg"); 
+  background-size:contain;background-repeat:no-repeat;background-position:center;}
+
+tw-story[tags~="IDC"] {background-image:url("file:///Users/tey/Documents/Twine/Stories/a freshman story media/UNINTERESTED.jpeg"); 
+  background-size:contain;background-repeat:no-repeat;background-position:center;}
+
+tw-story[tags~="text"] {background-image:url("file:///Users/tey/Documents/Twine/Stories/a freshman story media/confusedtext.jpeg"); 
+  background-size:contain;background-repeat:no-repeat;background-position:center;}
+
+tw-story[tags~="priorities1"] {background-image:url("file:///Users/tey/Documents/Twine/Stories/a freshman story media/priorities.jpeg"); 
+  background-size:contain;background-repeat:no-repeat;background-position:center;}
+
+tw-story[tags~="who-texting"] {background-image:url("file:///Users/tey/Documents/Twine/Stories/a freshman story media/whostexting.jpeg"); 
+  background-size:contain;background-repeat:no-repeat;background-position:center;}
+
+tw-story[tags~="calc"] {background-image:url("file:///Users/tey/Documents/Twine/Stories/a freshman story media/calculus.jpeg"); 
+  background-size:contain;background-repeat:no-repeat;background-position:center;}
+
+tw-story[tags~="car"] {background-image:url("file:///Users/tey/Documents/Twine/Stories/a freshman story media/girlsCAR.jpeg"); 
+  background-size:contain;background-repeat:no-repeat;background-position:center;}
+
+tw-story[tags~="undaunted"] {background-image:url("file:///Users/tey/Documents/Twine/Stories/a freshman story media/undaunted.jpeg"); 
+  background-size:contain;background-repeat:no-repeat;background-position:center;}
+tw-story[tags~="sweats"] {background-image:url("file:///Users/tey/Documents/Twine/Stories/a freshman story media/sweats.jpeg"); 
+  background-size:contain;background-repeat:no-repeat;background-position:center;}
+tw-story[tags~="jeanss"] {background-image:url("file:///Users/tey/Documents/Twine/Stories/a freshman story media/jeans.jpeg"); 
+  background-size:contain;background-repeat:no-repeat;background-position:center;}
+tw-story[tags~="dress"] {background-image:url("file:///Users/tey/Documents/Twine/Stories/a freshman story media/dress.jpeg"); 
+  background-size:contain;background-repeat:no-repeat;background-position:center;}
+
+
